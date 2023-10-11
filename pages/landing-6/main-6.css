@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-image:
+        linear-gradient(to bottom, rgba(20, 196, 245, 0.418), rgb(255, 255, 255));
+    position: sticky;
+    top: 0;
+}
+
+section {
+    width: 80vw;
+    height: 450px;
+    background-image:
+        linear-gradient(to bottom, rgba(20, 196, 245, 0.418), rgb(255, 255, 255)), url(bgc.png);
+    border-bottom: 3px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 2px solid #000;
+    box-shadow: 15px 15px 15px;
+    border-radius: 15px;
+}
+
+section h1 {
+    font-size: 10rem;
+    font-family: 'Just Another Hand',
+        cursive;
+    text-shadow: 5px 5px 5px lightblue;
+}
+
+section p {
+    font-size: 2rem;
+    padding: 30px;
+    text-shadow: 4px 4px 4px lightblue;
+    font-family: 'Just Another Hand',
+        cursive;
+    text-align: center;
+}
+
+.a_box {
+    display: flex;
+}
+
+.a_box a {
+    border: 3px solid blue;
+    margin-right: 1rem;
+    text-decoration: none;
+    width: 10vw;
+    height: 4vh;
+    text-align: center;
+    color: #000;
+    border-radius: 15px 15px 15px;
+    box-shadow: 3px 3px 10px black;
+    font-family: 'Just Another Hand',
+        cursive;
+}
+
+.a_box a:hover {
+    background-color: aqua;
+}
+
+.icon-container {
+    border-bottom: 3px solid #000000b9;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 10px #bcc2c5;
+    width: 100%;
+
+}
+
+main {
+    width: 100%;
+    background-color: #EBFEFF;
+}
+
+main .img_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .img_box img {
+    width: 70vw;
+    height: 80vh;
+    margin: 10vh auto;
+    box-shadow: 5px 5px 15px black;
+}
+
+.rights-container {
+    display: flex;
+    border-top: 3px solid #000;
+    border-bottom: 5px solid rgba(20, 196, 245, 0.418);
+    font-family: 'Just Another Hand',
+        cursive;
+    font-size: 1.5em;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to top, rgba(20, 196, 245, 0.418), rgb(255, 255, 255));
+    ;
+
+}
+
+.rights-container img {
+    width: 6vw;
+    height: 6vh;
+}
+
+@media screen and (max-width:600px) {
+    section h1 {
+        font-size: 3em;
+    }
+
+    section p {
+        font-size: 1.3em;
+    }
+
+    .a_box a {
+        width: 20vw;
+        height: 10vh;
+    }
+}

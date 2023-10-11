@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid #000; */
+}
+
+
+
+.navbar {
+    background-image:
+        linear-gradient(to bottom, rgba(20, 196, 245, 0.418), rgb(255, 255, 255));
+    position: sticky;
+    top: 0;
+}
+
+section {
+    width: 80vw;
+    height: 450px;
+    background-image:
+        linear-gradient(to bottom, rgba(20, 196, 245, 0.418), rgb(255, 255, 255)), url(imgs/bgc.png);
+    border-bottom: 3px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 2px solid #000;
+    box-shadow: 15px 15px 15px;
+    border-radius: 15px;
+}
+
+section h1 {
+    font-size: 10rem;
+    font-family: 'Just Another Hand',
+        cursive;
+    text-shadow: 5px 5px 5px lightblue;
+}
+
+section p {
+    font-size: 2rem;
+    padding: 30px;
+    text-shadow: 4px 4px 4px lightblue;
+    font-family: 'Just Another Hand',
+        cursive;
+
+
+}
+
+span a {
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    font-size: 2rem;
+}
+
+.icon-container {
+    border-bottom: 3px solid #000000b9;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 10px #bcc2c5;
+    width: 100%;
+
+}
+
+.about-container {
+    width: 70vw;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+    display: grid;
+    grid-template-rows: 50px 500px 50px;
+    grid-template-columns: 3fr 1fr 1fr;
+    gap: 15px;
+
+
+}
+
+.about {
+    box-shadow: 5px 5px 5px;
+    border-radius: 5px;
+    border-bottom: 5px solid aliceblue;
+    background-color: #F6F6F6;
+    display: flex;
+
+}
+
+.box1 {
+    grid-row: 1/2;
+    grid-column: 1/4;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Just Another Hand',
+        cursive;
+    ;
+
+
+}
+
+.box2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box3 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    font-family: 'Just Another Hand',
+        cursive;
+    ;
+
+
+}
+
+.box4 {
+    grid-column: -4/-1;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box2 img {
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+
+}
+
+.box3 h4 {
+    font-size: 2.7em;
+    padding: 20px;
+    text-shadow: 5px 5px 5px lightblue;
+
+}
+
+.box1 h2 {
+    font-size: 3em;
+    margin-top: 15px;
+}
+
+.box4 a {
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #000;
+    background-color: rgb(182, 173, 235);
+    font-family: 'Just Another Hand',
+        cursive;
+    ;
+    width: 15rem;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: linear-gradient(to bottom, rgba(20, 196, 245, 0.418), rgb(255, 255, 255)),
+        url(imgs/matrix-.jpg);
+    width: 40vw;
+    height: 30vh;
+    margin: 0 auto;
+    margin-top: 80px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: -10px -10px 20px #000;
+
+}
+
+.header-card h1 {
+    font-family: 'Just Another Hand',
+        cursive;
+    font-size: 5em;
+    color: aliceblue;
+    text-shadow: 15px 10px 10px #000;
+    margin: 20px;
+
+}
+
+.header-card p {
+    font-size: 3em;
+    margin: 20px;
+    font-family: 'Just Another Hand',
+        cursive;
+    text-shadow: 15px 10px 10px #bcc2c5;
+
+}
+
+.card1-container,
+.card2-container {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.card2-container {
+    margin-bottom: 100px;
+}
+
+.text-center {
+
+    box-shadow: 5px 5px 15px #000;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #3A3A3A;
+    color: aliceblue;
+    font-size: 2em;
+    font-family: 'Just Another Hand',
+        cursive;
+    background-image: url(imgs/footer.png);
+    background-repeat: no-repeat;
+
+    background-size: 40% 30%;
+
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #3A3A3A;
+
+
+}
+
+.footer-container h3 {
+    font-size: 3em;
+    margin: 50px;
+    text-shadow: 15px 10px 10px #bcc2c5;
+}
+
+.footer-container p {
+    width: 20vw;
+}
+
+.form-container label,
+input,
+textarea {
+    color: aliceblue;
+    font-size: 1.1em;
+    width: 20vw;
+    height: 6vh;
+}
+
+.form-container input,
+textarea {
+    border-bottom: 5px solid lightskyblue;
+    border-radius: 10px;
+    color: #000;
+
+}
+
+
+.btnn input {
+    color: #000;
+    background-color: rgb(151, 170, 228);
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+}
+
+.box-icon {
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image:
+        linear-gradient(to top, rgba(20, 196, 245, 0.418), rgb(255, 255, 255));
+    width: 100%;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rights-container {
+    display: flex;
+    border: 1px solid #000;
+    border-bottom: 5px solid rgba(20, 196, 245, 0.418);
+    font-family: 'Just Another Hand',
+        cursive;
+    font-size: 1.5em;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.rights-container img {
+    width: 6vw;
+    height: 6vh;
+}
+
+
+
+@media screen and (max-width:1023px) {
+
+    .box2,
+    .box3 {
+
+        font-size: 0.8em;
+    }
+
+    .about-container {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .box2,
+    .box3 {
+
+        font-size: 0.6em;
+        justify-content: center;
+    }
+
+    .about-container {
+        width: 100%;
+    }
+
+    .box2 img {
+        width: initial;
+        padding: 5px;
+    }
+
+    .header-card {
+        width: 60vw;
+    }
+
+    .header-card h1 {
+        font-size: 2.8em;
+
+    }
+
+    .header-card p {
+        font-size: 1.3em;
+    }
+
+    .card1-container,
+    .card2-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .footer-container h3 {
+        font-size: 1.5em;
+        margin: 100px;
+    }
+
+    .footer-container p {
+        width: 50vw;
+    }
+
+    .form-container label,
+    input,
+    textarea {
+
+        font-size: 0.6em;
+        width: 50vw;
+        height: 6vh;
+    }
+
+    .box-icon {
+        height: 25vh;
+        padding: 10px;
+    }
+
+    .rights-container img {
+        width: 15vw;
+
+    }
+
+}

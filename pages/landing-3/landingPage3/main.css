@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    direction: rtl;
+    margin-right: 50px;
+}
+
+.container img {
+    width: 70%;
+    height: 100%;
+
+}
+
+.container .box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+}
+
+.container h1 {
+    color: #020253;
+    font-family: tahoma;
+    font-size: 2.5em;
+    margin-bottom: 1vh;
+    padding: 20px;
+
+}
+
+.container p {
+    color: #020253;
+    font-family: tahoma;
+    font-size: 1em;
+    margin-bottom: 20px;
+    width: 500px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 20vw;
+}
+
+.container div form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container .box form label {
+    color: #2C2C2C;
+    font-family: tahoma;
+    font-size: 1em;
+    margin-top: 2vh;
+}
+
+.container .box form input {
+    background: #E5EEFF;
+    border: 0;
+    border-bottom: 3px solid #020253;
+    width: 20vw;
+    height: 5vh;
+}
+
+.container .box .btn input {
+    background-color: #020253;
+    color: #E5EEFF;
+    width: 8vw;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100vw;
+    }
+
+    .container .box {
+        margin-top: 1rem;
+    }
+
+    .container img {
+        width: 101vw;
+        height: 53vh;
+    }
+
+    .container h1 {
+        color: #020253;
+        font-family: tahoma;
+        font-size: 1.7em;
+    }
+
+    .container .box form label {
+        color: #2C2C2C;
+        font-family: tahoma;
+        font-size: 0.7em;
+        margin-top: 1.3vh;
+    }
+
+    .container .box form input {
+        width: 70vw;
+        height: 3vh;
+    }
+
+    .container .box .btn input {
+        width: 70vw;
+        font-size: 1em;
+        margin-bottom: 4rem;
+    }
+
+    .form-control {
+        width: 70vw;
+        margin: 0 auto;
+
+    }
+}

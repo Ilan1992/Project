@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container h1 {
+    color: #FFFFFF;
+    text-shadow: 0px 0px 36px #00000087;
+    font-family: Satisfy;
+    font-size: 10em;
+}
+
+.container h3 {
+    color: #FFFFFF;
+    text-shadow: 0px 0px 36px #00000087;
+    font-family: Satisfy;
+    font-size: 3em;
+}
+
+.container p {
+    color: #FFFFFF;
+    text-shadow: 0px 0px 36px #00000087;
+    font-family: Satisfy;
+    font-size: 1em;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+form {
+    display: flex;
+    direction: rtl;
+}
+
+form label {
+    color: #FFFFFF;
+}
+
+form input {
+    width: 20vw;
+    height: 5vh;
+    background: #F6F6F624 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+    margin-left: 2em;
+}
+
+.form-control [type=submit] {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+
+    color: black;
+    /* padding: 15px; */
+    width: 10vw;
+    height: 5vh;
+    text-align: center;
+
+    font: normal normal normal 16px/20px Varela Round;
+}
+
+.btn input {
+    margin-top: 2vh;
+}
+
+@media screen and (max-width:600px) {
+    .container h1 {
+        font-size: 5em;
+        margin-bottom: 50px;
+    }
+
+    .container h3 {
+        font-size: 1.6em;
+        margin-bottom: 30px;
+    }
+
+    .container p {
+        font-size: 1.1em;
+        width: 80vw;
+        text-align: center;
+
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form input {
+        width: 80vw;
+        margin-bottom: 10px;
+        margin: 0 auto;
+
+    }
+
+    .form-control [type=submit] {
+        width: 80vw;
+        margin-bottom: 10px;
+    }
+
+    .btn input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+    }
+
+
+
+}

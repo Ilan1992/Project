@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(Path\ 15.png);
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .box h1 {
+    font: normal normal bold Assistant;
+    color: #D3E10E;
+    font-size: 5em;
+    margin-top: 6rem;
+}
+
+.container .box p {
+    font: normal normal normal Assistant;
+    color: #F9F9F9;
+    font-size: 1.1em;
+    margin-top: .5rem;
+
+}
+
+.container form {
+    direction: rtl;
+    display: flex;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 2rem;
+}
+
+.container form label {
+    font: normal normal bold Assistant;
+    color: #011560;
+    font-size: 1.5em;
+}
+
+.container form input {
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+    border: 0;
+    border-bottom: 4px solid #D3E10E;
+    width: 20vw;
+    height: 5vh;
+}
+
+.container form .btn input {
+    width: 10vw;
+    background-color: #D3E10E;
+    font: normal normal bold Assistant;
+    color: #011560;
+    font-size: 1em;
+    margin-top: 1.7rem;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        background-size: 100% 55%;
+    }
+
+    .container .box h1 {
+        font-size: 2.7em;
+        margin-top: 0.5rem;
+    }
+
+    .container .box p {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .container form {
+        display: flex;
+        flex-direction: column;
+        margin-right: 2rem;
+    }
+
+    .container form input {
+        width: 70vw;
+        margin-bottom: 0.5rem;
+    }
+
+    .container form .btn input {
+        width: 70vw;
+    }
+
+}

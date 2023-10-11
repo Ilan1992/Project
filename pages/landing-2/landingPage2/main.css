@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: transparent url(Path\ 15.png) 0% 0% no-repeat padding-box;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.container .box {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30vh;
+    width: 27vw;
+    /* height: 65vh; */
+    background: #1A1A1AD4 0% 0% no-repeat padding-box;
+    padding: 50px;
+}
+
+.container .box h1 {
+    text-align: center;
+    font: normal normal 900 36px/53px Heebo;
+    color: #FFFFFF;
+    font-size: 2.5em;
+    margin-top: 5vh;
+
+}
+
+.container .box p {
+
+    text-align: center;
+    font: normal normal normal 20px/29px Heebo;
+    color: #F9F9F9;
+    font-size: 1.5em;
+    margin-top: 5vh;
+
+}
+
+.form-control {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+form {
+    display: flex;
+    direction: rtl;
+    flex-direction: column;
+
+    margin: 0 auto;
+    margin-top: 3vh;
+
+}
+
+form label {
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
+
+form input {
+    width: 20vw;
+    height: 4vh;
+    margin-bottom: 1.5vh;
+    border: 1px solid #D31C75;
+
+}
+
+.btn input {
+    width: 7vw;
+    font: normal normal bold 22px/30px Heebo;
+    color: #FFFFFF;
+    background-color: #D31C75;
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        background-image: url(Path\ 15.png);
+        background-size: 100% 40%;
+        margin: 0 auto;
+
+    }
+
+    .container .box {
+        width: 70vw;
+        height: 65vh;
+        margin: 0 auto;
+
+    }
+
+    .container .box h1 {
+        margin-top: 0;
+        font-size: 2.3em;
+    }
+
+    .container .box p {
+        font-size: 1.2em;
+        margin-top: 0;
+    }
+
+    form label {
+
+        font-size: 1em;
+    }
+
+    form input {
+        width: 50vw;
+        height: 4vh;
+        margin-bottom: 2vh;
+    }
+
+    .btn input {
+        width: 17vw;
+        height: 6vh;
+    }
+}
