@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/background.jpg);
+  background-size:cover;
+
+
+}
+
+.container{
+  height: auto;
+  width: 50vw;
+  border: 3px solid #766f6f;
+  border-radius: 10px;
+  background: rgba(255,255,255,.1);
+  backdrop-filter: blur(30px);
+  
+}
+.card{
+  background: rgba(255,255,255,.1);
+}

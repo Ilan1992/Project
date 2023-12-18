@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-image: url(/backgrund-img/17450.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: 3px solid #201b1b;
+  width: 70vw;
+  height: auto;
+  border-radius: 10px;
+  
+  background: linear-gradient(rgb(161, 161, 226), rgb(116, 207, 217));
+  background: rgba(255,255,255,.1);
+  backdrop-filter: blur(150px);
+  box-shadow: 5px 5px 15px;
+}
+

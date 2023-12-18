@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(/backgruond-img/bg.jpg);
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  height:100vh;
+  
+}
+.cell{
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  box-shadow: 0 0 0 2px;
+  line-height: 100px;
+  font-size: 75px;
+  cursor: pointer;
+  backdrop-filter: blur(30px);
+}
+#gameContainer{
+  height: 100%;
+  font-family: serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+#cellContainer{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  width: 300px;
+  
+}
+#restartBtn{
+  margin-top: 1rem;
+  width: 100px;
+  height: 5vh;
+  border-radius: 30px;
+  font-size: 1.5rem;
+}
+
+#statusText{
+  font-size: 2rem;
+  text-shadow: 5px 5px 20px #fff;
+}
+
+#gameContainer h1{
+  font-size: 3rem;
+  text-shadow: 5px 5px 10px #fff;
+}

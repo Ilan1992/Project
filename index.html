@@ -1,251 +1,484 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project-Ilan Vitenko</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+  </head>
 
-<body>
+  <body>
     <header id="head">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <img src="imgs/LoGO.png" alt="LOGO">
-                <a class="navbar-brand" href=""> Ilan Vitenko</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Projects
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="pages/landing-1/landing1.html">landing-1</a></li>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="imgs/LoGO.png" alt="LOGO" />
+          <a class="navbar-brand" href=""> Ilan Vitenko</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Projects
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="pages/landing-1/landing1.html"
+                      >landing-1</a
+                    >
+                  </li>
 
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="pages/landing-2/landing-2.html">landing-2</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="pages/landing-3/landing-3.html">landing-3</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="pages/landing-4/landing-4.html">landing-4</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="pages/landing-5/landing-5.html">landing-5</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="pages/landing-6/landing-6.html">landing-6</a></li>
-
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled"></a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-        <section>
-            <h1>Portfolio</h1>
-            <p>Welcome to portfolio project is the culmination of my journey as a full-stack student.</p>
-        </section>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="pages/landing-2/landing-2.html"
+                      >landing-2</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="pages/landing-3/landing-3.html"
+                      >landing-3</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="pages/landing-4/landing-4.html"
+                      >landing-4</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="pages/landing-5/landing-5.html"
+                      >landing-5</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="pages/landing-6/landing-6.html"
+                      >landing-6</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled"></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <section>
+        <h1>Portfolio</h1>
+        <p>
+          Welcome to portfolio project is the culmination of my journey as a
+          full-stack student.
+        </p>
+      </section>
     </header>
     <span><a href="#top">&#10506;</a></span>
-    <br><br>
+    <br /><br />
     <div class="icon-container">
-        <img src="icons/img-API.png" alt="api">
-        <img src="icons/img-Bootstrap.png" alt="bootstrap">
-        <img src="icons/img-CSS.png" alt="css">
-        <img src="icons/img-ES6.png" alt="ES6">
-        <img src="icons/img-HTML.png" alt="html">
-        <img src="icons/img-JS.png" alt="javaScipt">
-        <img src="icons/img-NodeJS.png" alt="NodeJS">
-        <img src="icons/img-OOP.png" alt="OOP">
-        <img src="icons/img-React.png" alt="React">
-        <img src="icons/img-SASS.png" alt="Sass">
-        <img src="icons/img-TypeScript.png" alt="TypeScript">
+      <img src="icons/img-API.png" alt="api" />
+      <img src="icons/img-Bootstrap.png" alt="bootstrap" />
+      <img src="icons/img-CSS.png" alt="css" />
+      <img src="icons/img-ES6.png" alt="ES6" />
+      <img src="icons/img-HTML.png" alt="html" />
+      <img src="icons/img-JS.png" alt="javaScipt" />
+      <img src="icons/img-NodeJS.png" alt="NodeJS" />
+      <img src="icons/img-OOP.png" alt="OOP" />
+      <img src="icons/img-React.png" alt="React" />
+      <img src="icons/img-SASS.png" alt="Sass" />
+      <img src="icons/img-TypeScript.png" alt="TypeScript" />
     </div>
-    <br><br>
+    <br /><br />
     <div class="about-container">
-        <div class="about box1">
-            <h2 id="about">About Me</h2>
-        </div>
+      <div class="about box1">
+        <h2 id="about">About Me</h2>
+      </div>
 
-        <div class="about box2"><img src="imgs/me.jpg" alt="my image"></div>
-        <div class="about box3">
-            <h4>Hello,I'm Ilan vitenko, 31 years old,married.
-                I come from the restaurant industry,i am very interested in the field of blockchain...I am a very
-                hardworking person and i have a quick absorption and a positive attitue..
-            </h4>
-
-        </div>
-        <div class="about box4"><a href="cv_ilan-vitenko.zip" download="cv_ilan-vitenko">Download CV</a></div>
+      <div class="about box2"><img src="imgs/me.jpg" alt="my image" /></div>
+      <div class="about box3">
+        <h4>
+          Hello,I'm Ilan vitenko, 31 years old,married. I come from the
+          restaurant industry,i am very interested in the field of
+          blockchain...I am a very hardworking person and i have a quick
+          absorption and a positive attitue..
+        </h4>
+      </div>
+      <div class="about box4">
+        <a href="cv_ilan-vitenko.zip" download="cv_ilan-vitenko">Download CV</a>
+      </div>
     </div>
-    <br>
-    <div class="header-card">
-        <h1>Selected Projects</h1>
-        <p>Selected Projects For Presentation</p>
-    </div>
-    <br>
-    <div class="card1-container d-flex justify-content-evenly">
-        <div class="card text-center text-bg-dark mb-3" style="width: 18rem;">
-            <img src="imgs/landingPage1.png" class="card-img-top" alt="landing page">
-            <div class="card-body">
-                <h5 class="card-title">Landing Page</h5>
-                <p class="card-text">The Preview Here You Can See Or Download The Project</p>
-                <a href="pages/landing-1/landing1.html" class="btn btn-light">Go Preview</a>
-            </div>
-        </div>
-        <div class="card text-center text-bg-dark mb-3" style="width: 18rem;">
-            <img src="imgs/landingPage2.png" class="card-img-top" alt="landing Page">
-            <div class="card-body">
-                <h5 class="card-title">Landing Page</h5>
-                <p class="card-text">The Preview Here You Can See Or Download The Project</p>
-                <a href="pages/landing-2/landing-2.html" class="btn btn-light">Go Preview</a>
-            </div>
-        </div>
-        <div class="card text-center text-bg-dark mb-3" style="width: 18rem;">
-            <img src="imgs/landingPage3.png" class="card-img-top" alt="landing Page">
-            <div class="card-body">
-                <h5 class="card-title">Landing Page</h5>
-                <p class="card-text">The Preview Here You Can See Or Download The Project</p>
-                <a href="pages/landing-3/landing-3.html" class="btn btn-light">Go Preview</a>
-            </div>
-        </div>
-    </div>
-    <br>
-    <div class="card2-container d-flex justify-content-evenly">
-        <div class="card text-center text-bg-dark mb-3" style="width: 18rem;">
-            <img src="imgs/landingPage4.png" class="card-img-top" alt="landing Page">
-            <div class="card-body">
-                <h5 class="card-title">Landing Page</h5>
-                <p class="card-text">The Preview Here You Can See Or Download The Project</p>
-                <a href="pages/landing-4/landing-4.html" class="btn btn-light">Go Preview</a>
-            </div>
-        </div>
-        <div class="card text-center text-bg-dark mb-3" style="width: 18rem;">
-            <img src="imgs/landingPage5.png" class="card-img-top" alt="landing Page">
-            <div class="card-body">
-                <h5 class="card-title">Landing Page</h5>
-                <p class="card-text">The Preview Here You Can See Or Download The Project</p>
-                <a href="pages/landing-5/landing-5.html" class="btn btn-light">Go Preview</a>
-            </div>
-        </div>
-        <div class="card text-center text-bg-dark mb-3" style="width: 18rem;">
-            <img src="imgs/landingPage6.png" class="card-img-top" alt="landing Page">
-            <div class="card-body">
-                <h5 class="card-title">Landing Page</h5>
-                <p class="card-text">The Preview Here You Can See Or Download The Project</p>
-                <a href="pages/landing-6/landing-6.html" class="btn btn-light">Go Preview</a>
-            </div>
-        </div>
-    </div>
-    <br><br>
-    <footer>
-        <div class="footer-container">
-
-            <h3 id="contact">Contact Us</h3>
-            <p>Contact us, leave details...and we will contact you to coordinate expectations. that we can embark
-                on a new path.
+    <br />
+    <div class="js-container">
+      <div class="header-js">
+        <h1>
+          Java Script Apps
+          <i
+            class="fa-brands fa-square-js fa-bounce"
+            style="color: #e0c515"
+          ></i>
+        </h1>
+        <p>Selected Projects Java Script Apps</p>
+      </div>
+      <div class="card1-container d-flex justify-content-evenly">
+        <div class="card text-center text-bg-dark mb-3" style="width: 18rem">
+          <img
+            src="imgs/pics-js/crypro.png"
+            class="card-img-top"
+            alt="landing page"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Crypto Market API</h5>
+            <p class="card-text">
+              The Preview Here You Can See Or Download The Project
             </p>
+            <a href="Projects/landing.js.-4/landing.js-4.html" class="btn btn-light"
+              >Go Preview</a
+            >
+          </div>
+        </div>
+        <div class="card text-center text-bg-dark mb-3" style="width: 18rem">
+          <img
+            src="imgs/pics-js/weather.png"
+            class="card-img-top"
+            alt="landing Page"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Weather API</h5>
+            <p class="card-text">
+              The Preview Here You Can See Or Download The Project
+            </p>
+            <a href="Projects/landing.js.-2/landing.js-2.html" class="btn btn-light"
+              >Go Preview</a
+            >
+          </div>
+        </div>
+        <div class="card text-center text-bg-dark mb-3" style="width: 18rem">
+          <img
+            src="imgs/pics-js/tic_tac_toe.png"
+            class="card-img-top"
+            alt="landing Page"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Tic-Tac-Toe Game</h5>
+            <p class="card-text">
+              The Preview Here You Can See Or Download The Project
+            </p>
+            <a href="Projects/landing.js.-5/landing.js-5.html" class="btn btn-light"
+              >Go Preview</a
+            >
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="card2-container d-flex justify-content-evenly">
+        <div class="card text-center text-bg-dark mb-3" style="width: 18rem">
+          <img
+            src="imgs/pics-js/memory.png"
+            class="card-img-top"
+            alt="landing Page"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Memory Game</h5>
+            <p class="card-text">
+              The Preview Here You Can See Or Download The Project
+            </p>
+            <a href="Projects/landing.js.-6/landing.js-6.html" class="btn btn-light"
+              >Go Preview</a
+            >
+          </div>
+        </div>
+        <div class="card text-center text-bg-dark mb-3" style="width: 18rem">
+          <img
+            src="imgs/pics-js/taskMaster.png"
+            class="card-img-top"
+            alt="landing Page"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Task Master</h5>
+            <p class="card-text">
+              The Preview Here You Can See Or Download The Project
+            </p>
+            <a href="Projects/landing.js.-3/landing.js-3.html" class="btn btn-light"
+              >Go Preview</a
+            >
+          </div>
+        </div>
+        <div class="card text-center text-bg-dark mb-3" style="width: 18rem">
+          <img
+            src="imgs/pics-js/myAccount.png"
+            class="card-img-top"
+            alt="landing Page"
+          />
+          <div class="card-body">
+            <h5 class="card-title">My Account</h5>
+            <p class="card-text">
+              The Preview Here You Can See Or Download The Project
+            </p>
+            <a href="Projects/landing.js.-1/landing.js-1.html" class="btn btn-light"
+              >Go Preview</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="header-card">
+      <h1>Selected Projects</h1>
+      <p>Selected Projects For Presentation Html & Css</p>
+    </div>
+    <div class="card1-container d-flex justify-content-evenly">
+      <div class="card text-center text-bg-dark mb-3" style="width: 18rem">
+        <img
+          src="imgs/landingPage1.png"
+          class="card-img-top"
+          alt="landing page"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Landing Page</h5>
+          <p class="card-text">
+            The Preview Here You Can See Or Download The Project
+          </p>
+          <a href="pages/landing-1/landing1.html" class="btn btn-light"
+            >Go Preview</a
+          >
+        </div>
+      </div>
+      <div class="card text-center text-bg-dark mb-3" style="width: 18rem">
+        <img
+          src="imgs/landingPage2.png"
+          class="card-img-top"
+          alt="landing Page"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Landing Page</h5>
+          <p class="card-text">
+            The Preview Here You Can See Or Download The Project
+          </p>
+          <a href="pages/landing-2/landing-2.html" class="btn btn-light"
+            >Go Preview</a
+          >
+        </div>
+      </div>
+      <div class="card text-center text-bg-dark mb-3" style="width: 18rem">
+        <img
+          src="imgs/landingPage3.png"
+          class="card-img-top"
+          alt="landing Page"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Landing Page</h5>
+          <p class="card-text">
+            The Preview Here You Can See Or Download The Project
+          </p>
+          <a href="pages/landing-3/landing-3.html" class="btn btn-light"
+            >Go Preview</a
+          >
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="card2-container d-flex justify-content-evenly">
+      <div class="card text-center text-bg-dark mb-3" style="width: 18rem">
+        <img
+          src="imgs/landingPage4.png"
+          class="card-img-top"
+          alt="landing Page"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Landing Page</h5>
+          <p class="card-text">
+            The Preview Here You Can See Or Download The Project
+          </p>
+          <a href="pages/landing-4/landing-4.html" class="btn btn-light"
+            >Go Preview</a
+          >
+        </div>
+      </div>
+      <div class="card text-center text-bg-dark mb-3" style="width: 18rem">
+        <img
+          src="imgs/landingPage5.png"
+          class="card-img-top"
+          alt="landing Page"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Landing Page</h5>
+          <p class="card-text">
+            The Preview Here You Can See Or Download The Project
+          </p>
+          <a href="pages/landing-5/landing-5.html" class="btn btn-light"
+            >Go Preview</a
+          >
+        </div>
+      </div>
+      <div class="card text-center text-bg-dark mb-3" style="width: 18rem">
+        <img
+          src="imgs/landingPage6.png"
+          class="card-img-top"
+          alt="landing Page"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Landing Page</h5>
+          <p class="card-text">
+            The Preview Here You Can See Or Download The Project
+          </p>
+          <a href="pages/landing-6/landing-6.html" class="btn btn-light"
+            >Go Preview</a
+          >
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <footer>
+      <div class="footer-container">
+        <h3 id="contact">Contact Us</h3>
+        <p>
+          Contact us, leave details...and we will contact you to coordinate
+          expectations. that we can embark on a new path.
+        </p>
 
-            <form>
-                <div class="form-container">
-                    <label for="name">Full Name</label>
-                    <input type="text" name="name" id="name">
-                </div>
-                <div class="form-container">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                </div>
-                <div class="form-container">
-                    <label for="tel">Phone</label>
-                    <input type="tel" name="tel" id="tel">
-                </div>
+        <form>
+          <div class="form-container">
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="form-container">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-container">
+            <label for="tel">Phone</label>
+            <input type="tel" name="tel" id="tel" />
+          </div>
 
-                <div class="form-container">
-                    <label for="number">Contact</label>
-                    <textarea name="message" rows="5" cols="30">
+          <div class="form-container">
+            <label for="number">Contact</label>
+            <textarea name="message" rows="5" cols="30">
                     Contact to us...
-                    </textarea>
-
-                </div>
-                <div class="btnn form-container">
-                    <input type="submit" value="Send Us">
-                </div>
-            </form>
-
+                    </textarea
+            >
+          </div>
+          <div class="btnn form-container">
+            <input type="submit" value="Send Us" />
+          </div>
+        </form>
+      </div>
+      <div class="box-icon">
+        <div class="box icons1">
+          <img src="icons/Icon material-location-on.png" alt="location" />
+          <h6>Yhoda Borla,Akko</h6>
         </div>
-        <div class="box-icon">
-            <div class="box icons1">
-                <img src="icons/Icon material-location-on.png" alt="location">
-                <h6>Yhoda Borla,Akko</h6>
-            </div>
-            <div class="box icons2">
-                <img src="icons/Icon simple-email.png" alt="email">
-                <h6>ilanvitenko71@gmail.com</h6>
-            </div>
-            <div class="box icons3">
-                <img src="icons/Icon simple-whatsapp.png" alt="whatsapp">
-                <h6>0505996753</h6>
-            </div>
-            <div class="box icons4">
-                <img src="icons/Icon simple-.png" alt="Phone">
-                <h6>0505996753</h6>
-            </div>
-            <div class="box icons5">
-                <img src="icons/Icon awesome-linkedin-in.png" alt="linkedin">
-                <h6>Ilan Vitenko</h6>
-            </div>
-            <div class="box icons6">
-                <img src="icons/Icon awesome-facebook-f.png" alt="facebook">
-                <h6>Ilan Vitenko</h6>
-            </div>
-
+        <div class="box icons2">
+          <img src="icons/Icon simple-email.png" alt="email" />
+          <h6>ilanvitenko71@gmail.com</h6>
         </div>
-        <div class="rights-container">
-            <p>&#169; All Rights reserved - Ilan Vitenko &#174;</p>
-            <img src="imgs/LoGO.png" alt="logo">
+        <div class="box icons3">
+          <img src="icons/Icon simple-whatsapp.png" alt="whatsapp" />
+          <h6>0505996753</h6>
         </div>
-
-
+        <div class="box icons4">
+          <img src="icons/Icon simple-.png" alt="Phone" />
+          <h6>0505996753</h6>
+        </div>
+        <div class="box icons5">
+          <img src="icons/Icon awesome-linkedin-in.png" alt="linkedin" />
+          <h6>Ilan Vitenko</h6>
+        </div>
+        <div class="box icons6">
+          <img src="icons/Icon awesome-facebook-f.png" alt="facebook" />
+          <h6>Ilan Vitenko</h6>
+        </div>
+      </div>
+      <div class="rights-container">
+        <p>&#169; All Rights reserved - Ilan Vitenko &#174;</p>
+        <img src="imgs/LoGO.png" alt="logo" />
+      </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

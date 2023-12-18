@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+  background-image: url(background/5026563.jpg);
+  background-size: cover;
+  
+}
+.container{
+  box-shadow: 15px 15px 15px;
+  background-image: url(/bg-img/19449741.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width:550px){
+  .container{
+    width: 95vw;
+  }
+}
