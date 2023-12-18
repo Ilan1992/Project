@@ -24,15 +24,15 @@ const generateCardHTML = (data) => {
 
   let weatherImgSrc = "";
   if (data.weather[0].main === "Clouds") {
-    weatherImgSrc = "/images/clouds.png";
+    weatherImgSrc = "images/clouds.png";
   } else if (data.weather[0].main === "Clear") {
-    weatherImgSrc = "/images/clear.png";
+    weatherImgSrc = "images/clear.png";
   } else if (data.weather[0].main === "Rain") {
-    weatherImgSrc = "/images/rain.png";
+    weatherImgSrc = "images/rain.png";
   } else if (data.weather[0].main === "Drizzle") {
-    weatherImgSrc = "/images/drizzle.png";
+    weatherImgSrc = "images/drizzle.png";
   } else if (data.weather[0].main === "Mist") {
-    weatherImgSrc = "/images/mist.png";
+    weatherImgSrc = "images/mist.png";
   }
 
   return `<div class="row g-0">

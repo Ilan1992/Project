@@ -327,6 +327,7 @@ textarea {
 
   .header-card {
     width: 100vw;
+    height: 40vh;
   }
 
   .header-card h1 {
